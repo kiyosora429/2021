@@ -32,15 +32,15 @@ addpath(genpath('GMM'));
 % 	   |- ASVspoof2019_LA_cm_protocols/
 % 	   |- ASVspoof2019_LA_train/
 
-use_preTrained_models = true; % use pre-trained models
+use_preTrained_models = false; % use pre-trained models
 
 % set here the path and the name of the scoring file
 LA_scoring_path = 'LA_cm_scores';
 LA_scoring_filename = 'LA_CQCC-GMM_cm_scores.txt';
 
 % set here the path to the databases and protocol files
-pathToASVspoof19 = '/path/to/ASVspoof2019_root/';
-pathToASVspoof21 = '/path/to/ASVspoof2021_root/';
+pathToASVspoof19 = '/home/audio/ASVspoof2019/';
+pathToASVspoof21 = '/home/audio/ASVspoof2020/';
 
 if use_preTrained_models
     
